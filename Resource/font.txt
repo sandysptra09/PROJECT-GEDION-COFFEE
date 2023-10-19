@@ -1,0 +1,93 @@
+// Logo icon
+Font : Alice
+
+// Navbar and Navbar Button
+Font : Tahoma
+
+// Container Header
+Font H1 : Alice
+Font Paragraph and Button : Tahoma
+
+// Section Header
+Font H6 : Tahoma 20px
+Font Paragraph : Tahoma 20px
+
+// Section Content 1
+Font Judul H3 : Alice 50px
+Font Fitur : Tahoma
+Font Select Group : Merriweather 14px italic
+Font Text Button : Tahoma 20px
+Font Subjudul H5 : Alice 30px
+Font Sub Paragraph : Tahoma 20px
+
+// Section Content 2
+Font Judul H3 : Alice 50px
+Font Paragraph : Tahoma 20px
+Font Text Button : Tahoma 20px
+Font Subjudul H6 : Tahoma 20px
+Font Sub Paragraph : Tahoma 20px
+
+// Main Content Carousel Review
+Font Judul H3 : Alice 50px
+Font Subjudul H5 : Alice 30px
+Font Paragraph : Tahoma 20px
+Font BY-GOOGLE-REVIEW : Tahoma 17px
+Font Name of Review : Tahoma 20px
+
+// Section Content 3 
+Font Flex-Row Card H5 : Alice 30px 
+Font Flex-Row Card Name-Category-Date : Merriweather 15px italic
+Font Flex-Row Card Paragraph : Tahoma 20px
+Font Flex-Row Card Text Link : Tahoma 20px
+Font Flex-Row Card Text Button : Tahoma 20px
+
+// Footer 
+Font Logo Icon : Alice 32px
+Font Paragraph : Tahoma 20px
+Font Fitur Footer H5 : Alice 30px
+Font Fitur Explore : Tahoma 20px
+Font Fitur Opening-Hours : Tahoma 20px
+Font Fitur Contact : Tahoma 20px 
+Font Copyright : Tahoma 16px
+
+
+ <div class="content-menu">
+                <div class="grid-3-menu">
+                    <div class="book-table-menu">
+                        <div class="img-menu">
+                            <img src="../Images/Section-content-select-menu/beautiful-place.jpg" alt="">
+                        </div>
+                        <h5>Beautiful Place</h5>
+                        <p>
+                            Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei
+                            an
+                            pericula euripidis, hinc partem ei est
+                        </p>
+                    </div>
+
+                    <div class="book-table-menu">
+                        <div class="img-menu">
+                            <img src="../Images/Section-content-select-menu/feel-the-coffee.jpg" alt="">
+                        </div>
+                        <h5>Feel the Coffee</h5>
+                        <p>
+                            Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei
+                            an
+                            pericula euripidis, hinc partem ei est
+                        </p>
+                    </div>
+
+                    <div class="book-table-menu">
+                        <div class="img-menu">
+                            <img src="../Images/Section-content-select-menu/full-taste.jpg" alt="">
+                        </div>
+                        <h5>Full Taste</h5>
+                        <p>
+                            Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei
+                            an
+                            pericula euripidis, hinc partem ei est
+                        </p>
+                    </div>
+                </div>
+
+            </div>

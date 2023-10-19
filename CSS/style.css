@@ -1,0 +1,885 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/tahoma');
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.navbar-header-container {
+    background-image: url('https://img.freepik.com/free-photo/close-up-barista-making-cappuccino-bartender-preparing-coffee-drink_1150-14696.jpg?w=826&t=st=1697270926~exp=1697271526~hmac=10166eb4736a14760ff4913ae0a3ed92de425631641c7e8fd7e0db37d087f047');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Navbar */
+.navbar {
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2.5rem;
+    font-family: "Tahoma", sans-serif;
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-logo h1 {
+    font-size: 32px;
+    font-family: "Alice", sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+.nav-link a {
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.shop-now {
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    font-family: "Tahoma", sans-serif;
+}
+
+.shop-now:hover {
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #F5D577;
+    color: black;
+}
+
+.sign-in {
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #F5D577;
+    color: black;
+    font-family: "Tahoma", sans-serif;
+}
+
+/* Header Container */
+.header-container {
+    text-align: center;
+    padding: 100px;
+    height: max-content;
+}
+
+.header-container h1 {
+    color: white;
+    font-size: 3.4em;
+    margin-bottom: 10px;
+    font-family: 'Alice', serif;
+    font-weight: 400;
+}
+
+.header-container h1:nth-child(2) {
+    margin-bottom: 2rem;
+}
+
+.header-container p {
+    font-size: 1.2em;
+    margin-bottom: 2.5rem;
+    color: white;
+    width: 500px;
+    line-height: 30px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.header-container button {
+    padding: 8px 16px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.header-container button {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #F5D577;
+    color: black;
+    font-family: "Tahoma", sans-serif;
+}
+
+.scroll-down button {
+    margin-top: 3rem;
+    border: none;
+    background-color: transparent;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+/* Section Header */
+.services {
+    background-color: #F5D577;
+    padding: 4rem 4rem;
+}
+
+.services .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    align-items: center;
+}
+
+.service {
+    display: flex;
+
+}
+
+.service-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-text {
+    margin-left: 1rem;
+    font-family: "Tahoma", sans-serif;
+}
+
+.service-text h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.service-text p {
+    font-size: 1rem;
+    color: #1A1A1AB2;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+/* Enf of Section Header */
+
+/* Section Content Menu */
+#books-table {
+    text-align: center;
+    padding: 4rem 4rem;
+}
+
+.book-table {
+    max-width: 1200px;
+    margin: 20px;
+}
+
+.menu-title {
+    margin-bottom: 3rem;
+}
+
+.menu-title h3 {
+    font-size: 50px;
+    color: #1A1A1A;
+    font-family: "Alice", sans-serif;
+}
+
+.menu-title h3:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.book-table .grid-4-select {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+
+}
+
+.book-table-select {
+    position: relative;
+}
+
+.select-title {
+    font-family: "Tahoma", sans-serif;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.select-option {
+    display: flex;
+    align-items: center;
+    border: 1px solid #1A1A1A;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.select-option img {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.select-option select {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex: 1;
+    font-style: italic;
+    font-family: "Merriweather", sans-serif;
+}
+
+.book-table-select button {
+    padding: 8px 16px;
+    font-size: 19px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #F5D577;
+    color: black;
+    font-family: "Tahoma", sans-serif;
+    display: block;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.book-table .grid-3-menu {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.book-select-menu img {
+    width: 100%;
+    height: auto;
+    border: 2px solid;
+}
+
+.book-select-menu h5 {
+    margin: 1rem;
+    font-family: "Alice", sans-serif;
+    font-size: 30px;
+    color: #1A1A1A;
+}
+
+.book-select-menu p {
+    font-family: "Tahoma", sans-serif;
+    line-height: 33px;
+    font-size: 1em;
+    color: #666666;
+}
+
+/* End of Section Menu */
+
+
+/* Section Content Shop */
+.content-shop {
+    margin: auto;
+    padding: 4rem 4rem;
+    background-color: #1A1A1A;
+}
+
+.header-shop {
+    display: flex;
+    gap: 4rem;
+    padding: 3rem;
+}
+
+.shop-text {
+    align-self: center;
+}
+
+.shop-text h3 {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-family: "Alice", sans-serif;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.shop-text p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: "Tahoma", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.shop-text button {
+    padding: 8px 16px;
+    font-size: 19px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #F5D577;
+    color: black;
+    font-family: "Tahoma", sans-serif;
+    display: block;
+    margin-top: 28px;
+}
+
+.header-service {
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+}
+
+.shop-service h6 {
+    margin-top: 1rem;
+    font-family: "Tahoma", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.shop-service p {
+    margin-top: 1rem;
+    font-family: "Tahoma", sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    color: #BBBBBB;
+}
+
+/* End of Section Content Shop */
+
+/* Section Content Menu */
+.content-menu {
+    padding: 4rem 4rem;
+    margin: auto;
+}
+
+.content-menu-title {
+    padding: 2rem 4rem;
+    text-align: center;
+}
+
+.content-menu-title h3 {
+    font-family: "Alice", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 1px;
+}
+
+.content-menu-title h3:nth-child(2) {
+    margin-top: 1rem;
+}
+
+.our-menu {
+    padding: 4rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.grid-menu {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.our-menu-img img {
+    width: 100px;
+    height: 100px;
+    border: #F3F0D9;
+}
+
+.our-menu-name h5 {
+    font-family: "Alice", sans-serif;
+    font-size: 25px;
+    line-height: 34px;
+    margin-left: 2rem;
+
+    color: #1A1A1A;
+}
+
+.new-menu {
+    padding: 2px 8px;
+    font-family: "Merriweather", sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: #F5D577;
+    margin-left: 0.4rem;
+
+}
+
+.our-menu-name p {
+    font-family: "Tahoma", sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 2rem;
+    color: #444444;
+}
+
+.our-menu-price h5 {
+    font-family: "Alice", sans-serif;
+    font-weight: 40px;
+    font-size: 30px;
+    margin-left: 2rem;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 4px 20px;
+    color: #1A1A1A;
+
+}
+
+.content-menu-carousel {
+    padding: 4rem 4rem;
+}
+
+.carousel-img {
+    background-color: #F3F0D9;
+    padding: 1.5rem;
+
+}
+
+.carousel-rate {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    width: 24px;
+    height: 24px;
+}
+
+
+.carousel-text h5 {
+    font-family: "Alice" sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1A1A1A;
+    margin-top: 1rem;
+}
+
+
+.carousel-text p {
+    margin-top: 0.5rem;
+    font-family: "Tahoma", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #656462;
+}
+
+.carousel-detail-more a {
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-family: "Tahoma", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 2.4px;
+    color: #1A1A1A;
+}
+
+/* End of Section Content Menu */
+
+
+/* Section Contact */
+.contact-us {
+    margin: auto;
+    padding: 4rem 4rem;
+    background-color: #F5D577;
+}
+
+.contact {
+    display: flex;
+    gap: 4rem;
+    padding: 3rem;
+}
+
+.contact-text {
+    align-self: center;
+}
+
+.contact-text h3 {
+    margin-bottom: 1rem;
+    font-family: "Alice", sans-serif;
+    font-size: 50px;
+    color: #1A1A1A;
+    font-weight: 400;
+}
+
+.contact-text p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+    font-family: "Tahoma", sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    color: #1A1A1A;
+}
+
+.contact-text button {
+    padding: 8px 16px;
+    font-size: 19px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: black;
+    font-family: "Tahoma", sans-serif;
+    display: block;
+    margin-top: 28px;
+}
+
+/* End of Section Contact */
+
+/* Section Gallery */
+.content-shop-gallery {
+    margin: auto;
+    padding: 4rem 4rem;
+    background-color: #F7F8F0;
+}
+
+.shop-gallery-text h3 {
+    padding: 4rem 4rem;
+    font-family: "Alice", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+.view-more {
+    text-align: center;
+    padding: 2rem 4rem;
+}
+
+.view-more button {
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-size: 19px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #F5D577;
+    color: black;
+    font-family: "Tahoma", sans-serif;
+
+}
+
+.text-review {
+    padding: 4rem 4rem;
+}
+
+.text-review h3 {
+    font-family: "Alice", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: 1px;
+    color: #1A1A1A;
+}
+
+.shop-review {
+    padding: 1rem 4rem;
+}
+
+.flex-shop-review {
+    display: flex;
+    width: 820px;
+    border: 1px solid;
+}
+
+.review-text {
+    margin-left: 2rem;
+    width: 500px;
+}
+
+.review-text h5 {
+    margin-top: 1rem;
+    font-family: "Alice", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
+}
+
+.review-text p {
+    margin-top: 1rem;
+    font-family: "Tahoma", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+
+.review-text span {
+    text-transform: uppercase;
+    font-family: "Tahoma", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 10%;
+}
+
+.people-name {
+    margin-left: 2rem;
+}
+
+.people-name h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.2rem;
+    font-family: "Tahoma", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.people-rate {
+    margin-left: 1.8rem;
+    display: flex;
+    width: 24px;
+}
+
+/* End of Section Gallery */
+
+/* Section Our news */
+
+.our-news {
+    padding: 4rem 4rem;
+    margin: auto;
+    background-color: #1A1A1A;
+    align-items: center;
+}
+
+.text-header {
+    padding: 4rem 4rem;
+}
+
+.text-header h3 {
+    font-family: "Alice", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.grid-3-news {
+    padding: 1rem 4rem;
+}
+
+.grid-3-news {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+
+}
+
+.news-img img {
+    width: 350px;
+}
+
+.news-title h5 {
+    margin-top: 1rem;
+    font-family: "Alice", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin-bottom: 0.5rem;
+}
+
+.news-date span {
+    font-family: "Merriweather", sans-serif;
+    font-weight: 450;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #BBBBBB;
+}
+
+.news-detail p {
+    margin-top: 0.5rem;
+    font-family: "Tahoma", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 34px;
+    color: #666666;
+}
+
+.read-more a {
+    font-family: "Tahoma", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+}
+
+/* End of Section Our News */
+
+/* Footer */
+.footer {
+    width: auto;
+    padding: 30px 50px;
+    display: flex;
+    background-color: #1A1A1A;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.about-footer {
+    width: 25%;
+}
+
+.footer-logo {
+    display: flex;
+
+}
+
+.footer-logo img {
+    width: 35px;
+}
+
+.footer-logo h1 {
+    font-family: "Alice", sans-serif;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+
+.text-footer {
+    margin-top: 1rem;
+}
+
+.about-footer p {
+    font-family: "Tahoma", sans-serif;
+    font-size: 17px;
+    line-height: 36px;
+    color: #BBBBBB;
+    margin-top: 0;
+}
+
+.social-media {
+    margin-top: 2rem;
+}
+
+.social-media img {
+    margin-right: 0.5rem;
+}
+
+.explore h5, .opening-hours h5, .contact-address h5 {
+    font-family: "Alice", sans-serif ;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.flex-explore {
+    display: flex;
+}
+
+.flex-explore ul:nth-child(2) {
+    margin-left: 2rem;
+}
+
+.flex-hours {
+    display: flex;
+}
+
+.flex-hours ul:nth-child(2) {
+    margin-left: 2rem;
+}
+
+.explore ul,
+.opening-hours ul, .contact-address ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.explore ul li,
+.opening-hours ul li , .contact-address ul li{
+    margin-top: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.explore a,
+.opening-hours li, .contact-address li {
+    font-family: "Tahoma", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #BBBBBB;
+    text-decoration: none;
+}
+
+.contact-address p {
+    font-family: "Tahoma", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.copyright {
+    margin: auto;
+    padding: 2.5rem 4rem;
+    background-color: #1A1A1A;
+    text-align: center;
+}
+
+.copyright span {
+    font-family: "Tahoma",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+/* End of Footer */

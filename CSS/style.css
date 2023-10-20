@@ -584,7 +584,86 @@
     text-align: center;
 }
 
+.shop-gallery {
+    width: 100%;
+    max-width: 1400px;
+    height: 600px;
+    position: relative;
+}
 
+.gallery-item {
+    position: absolute;
+    border: 1px #1A1A1A solid;
+}
+
+.item-1 {
+    width: 12%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #F9E8B3;
+}
+
+.item-2 {
+    width: 13.5%;
+    height: 49%;
+    left: 36%;
+    top: 0;
+    background: #F3F0D9;
+}
+
+.item-3 {
+    width: 12.9%;
+    height: 74%;
+    left: 87%;
+    top: 26%;
+    background: #F9E8B3;
+}
+
+.item-4,
+.item-5,
+.item-6,
+.item-7 {
+    border: none;
+}
+
+.item-4 {
+    width: 12.9%;
+    height: 26%;
+    left: 87%;
+    top: 0;
+}
+
+.item-5 {
+    width: 24.2%;
+    height: 49%;
+    left: 12%;
+    top: 0;
+}
+
+.item-6 {
+    width: 37.6%;
+    height: 51%;
+    left: 12%;
+    top: 49%;
+    border-bottom: 1px solid;
+}
+
+.item-7 {
+    width: 37.6%;
+    height: 76.5%;
+    left: 49.4%;
+    top: 0;
+}
+
+.item-8 {
+    width: 37.5%;
+    height: 24%;
+    left: 49.5%;
+    top: 76%;
+    background: white;
+    border-right: none;
+}
 
 .view-more {
     text-align: center;
@@ -813,8 +892,10 @@
     margin-right: 0.5rem;
 }
 
-.explore h5, .opening-hours h5, .contact-address h5 {
-    font-family: "Alice", sans-serif ;
+.explore h5,
+.opening-hours h5,
+.contact-address h5 {
+    font-family: "Alice", sans-serif;
     font-weight: 400;
     font-size: 22px;
     line-height: 36px;
@@ -838,19 +919,22 @@
 }
 
 .explore ul,
-.opening-hours ul, .contact-address ul {
+.opening-hours ul,
+.contact-address ul {
     list-style-type: none;
     padding: 0;
 }
 
 .explore ul li,
-.opening-hours ul li , .contact-address ul li{
+.opening-hours ul li,
+.contact-address ul li {
     margin-top: 1.3rem;
     margin-bottom: 10px;
 }
 
 .explore a,
-.opening-hours li, .contact-address li {
+.opening-hours li,
+.contact-address li {
     font-family: "Tahoma", sans-serif;
     font-size: 16px;
     line-height: 28px;
@@ -874,7 +958,7 @@
 }
 
 .copyright span {
-    font-family: "Tahoma",sans-serif;
+    font-family: "Tahoma", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;

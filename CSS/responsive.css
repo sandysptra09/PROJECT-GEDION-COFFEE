@@ -1,0 +1,286 @@
+@media screen and (max-width: 768px) {
+
+    /* Navbar and Header Container */
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .burger-menu {
+        display: flex; 
+    }
+
+    .nav-menu, .nav-link {
+        display: none; 
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .nav-menu.active {
+        display: flex; 
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
+
+    /* End of Navbar */
+
+    /* Header Container */
+    .header-container {
+        padding: 50px;
+    }
+
+    .header-container h1 {
+        font-size: 2.4em;
+    }
+
+    .header-container h1:nth-child(2) {
+        margin-bottom: 1rem;
+    }
+
+    .header-container p {
+        font-size: 1em;
+        width: 100%;
+    }
+
+    /* End of Header Container */
+
+    .menu-title h3 {
+        font-size: 34px;
+        /* margin-bottom: 1rem; */
+    }
+
+    .menu-title h3:nth-child(2) {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+
+    .book-table .grid-4-select {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        /* Ubah nilai minmax untuk elemen yang lebih kecil */
+        gap: 1rem;
+    }
+
+    .book-table .grid-3-menu {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+    }
+
+
+    .header-shop {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .shop-text button {
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .shop-img img {
+        width: 100%;
+    }
+
+    .header-shop {
+        gap: 1rem;
+    }
+
+    .shop-text h3 {
+        font-size: 34px;
+    }
+
+    .shop-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .shop-text button {
+        font-size: 14px;
+    }
+
+    .header-service {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 2rem;
+    }
+
+    .shop-service h6 {
+        font-size: 16px;
+    }
+
+    .shop-service p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* Section Content Menu */
+    .content-menu-title h3 {
+        font-size: 34px;
+    }
+    /* End of Section Content Menu */
+
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .contact-text h3 {
+        font-size: 34px;
+    }
+
+    .contact-text p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .contact-img img {
+        width: 100%;
+    }
+
+    .contact-text button {
+        text-align: center;
+    }
+
+    /* Section Gallery */
+    .shop-gallery-text h3 {
+        font-size: 38px;
+    }
+
+
+    .shop-gallery {
+        height: auto;
+    }
+
+    .gallery-item {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    .item-1,
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5,
+    .item-6,
+    .item-7,
+    .item-8 {
+        width: 100%;
+        height: auto;
+        left: auto;
+        top: auto;
+        background: none;
+    }
+
+    .text-review h3 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    /* End of Section Gallery */
+
+    /* Section Our News */
+    .grid-3-news {
+        padding: 1rem 2em;
+    }
+
+    grid-3-news {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .news-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-header h3 {
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: 0.5px;
+    }
+
+    .news-title h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .news-date span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .news-detail p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .read-more a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* End of Section Our News */
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .about-footer,
+    .explore,
+    .opening-hours,
+    .contact-address {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .flex-explore ul:nth-child(2),
+    .flex-hours ul:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .explore ul li,
+    .opening-hours ul li,
+    .contact-address ul li {
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .copyright {
+        padding: 1.5rem; 
+    }
+
+    .copyright span {
+        font-size: 12px; 
+        line-height: 24px; 
+    }
+    
+    .copyright div {
+        margin-top: 4rem;
+    }
+    
+
+    /* End of Footer */
+}

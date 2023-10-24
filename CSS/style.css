@@ -153,18 +153,19 @@
 /* Section Header */
 .services {
     background-color: #F5D577;
-    padding: 4rem 4rem;
+    padding: 4rem 2rem;
 }
 
 .services .grid-4 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
 }
 
 .service {
     display: flex;
+    margin-bottom: 2rem;
 
 }
 
@@ -197,11 +198,10 @@
 /* Section Content Menu */
 #books-table {
     text-align: center;
-    padding: 4rem 4rem;
+    padding: 4rem 2rem;
 }
 
 .book-table {
-    max-width: 1200px;
     margin: 20px;
 }
 
@@ -213,6 +213,8 @@
     font-size: 50px;
     color: #1A1A1A;
     font-family: "Alice", sans-serif;
+    font-weight: 400;
+
 }
 
 .menu-title h3:nth-child(2) {
@@ -221,8 +223,8 @@
 
 .book-table .grid-4-select {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 3rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
 
 }
 
@@ -277,7 +279,7 @@
 .book-table .grid-3-menu {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
 }
 
@@ -290,6 +292,7 @@
 .book-select-menu h5 {
     margin: 1rem;
     font-family: "Alice", sans-serif;
+    font-weight: 700;
     font-size: 30px;
     color: #1A1A1A;
 }
@@ -307,7 +310,7 @@
 /* Section Content Shop */
 .content-shop {
     margin: auto;
-    padding: 4rem 4rem;
+    padding: 4rem 2rem;
     background-color: #1A1A1A;
 }
 
@@ -347,14 +350,14 @@
     background-color: #F5D577;
     color: black;
     font-family: "Tahoma", sans-serif;
-    display: block;
-    margin-top: 28px;
+    /* display: block; */
+    margin-top: 1rem;
 }
 
 .header-service {
     padding: 2rem 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 3rem;
 }
 
@@ -373,16 +376,17 @@
     color: #BBBBBB;
 }
 
+
 /* End of Section Content Shop */
 
 /* Section Content Menu */
 .content-menu {
-    padding: 4rem 4rem;
+    padding: 4rem 2rem;
     margin: auto;
 }
 
 .content-menu-title {
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     text-align: center;
 }
 
@@ -466,7 +470,7 @@
 }
 
 .content-menu-carousel {
-    padding: 4rem 4rem;
+    padding: 4rem 2rem;
 }
 
 .carousel-img {
@@ -520,7 +524,7 @@
 /* Section Contact */
 .contact-us {
     margin: auto;
-    padding: 4rem 4rem;
+    padding: 4rem 2rem;
     background-color: #F5D577;
 }
 
@@ -561,8 +565,8 @@
     background-color: #FFFFFF;
     color: black;
     font-family: "Tahoma", sans-serif;
-    display: block;
-    margin-top: 28px;
+    /* display: block; */
+    margin-top: 18px;
 }
 
 /* End of Section Contact */
@@ -570,12 +574,12 @@
 /* Section Gallery */
 .content-shop-gallery {
     margin: auto;
-    padding: 4rem 4rem;
+    padding: 2rem 2rem;
     background-color: #F7F8F0;
 }
 
 .shop-gallery-text h3 {
-    padding: 4rem 4rem;
+    padding: 4rem 2rem;
     font-family: "Alice", sans-serif;
     font-weight: 400;
     font-size: 50px;
@@ -684,7 +688,7 @@
 }
 
 .text-review {
-    padding: 4rem 4rem;
+    padding: 2rem 2rem;
 }
 
 .text-review h3 {
@@ -697,7 +701,7 @@
 }
 
 .shop-review {
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
 }
 
 .flex-shop-review {
@@ -761,14 +765,14 @@
 /* Section Our news */
 
 .our-news {
-    padding: 4rem 4rem;
+    padding: 4rem 2rem;
     margin: auto;
     background-color: #1A1A1A;
     align-items: center;
 }
 
 .text-header {
-    padding: 4rem 4rem;
+    padding: 2rem 2rem;
 }
 
 .text-header h3 {
@@ -952,7 +956,7 @@
 
 .copyright {
     margin: auto;
-    padding: 2.5rem 4rem;
+    padding: 2.5rem 2rem;
     background-color: #1A1A1A;
     text-align: center;
 }
@@ -963,7 +967,9 @@
     font-size: 14px;
     line-height: 28px;
     color: #FFFFFF;
+    margin-bottom: 2rem;
 }
+
 
 
 /* End of Footer */

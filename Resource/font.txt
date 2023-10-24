@@ -51,43 +51,6 @@ Font Fitur Contact : Tahoma 20px
 Font Copyright : Tahoma 16px
 
 
- <div class="content-menu">
-                <div class="grid-3-menu">
-                    <div class="book-table-menu">
-                        <div class="img-menu">
-                            <img src="../Images/Section-content-select-menu/beautiful-place.jpg" alt="">
-                        </div>
-                        <h5>Beautiful Place</h5>
-                        <p>
-                            Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei
-                            an
-                            pericula euripidis, hinc partem ei est
-                        </p>
-                    </div>
 
-                    <div class="book-table-menu">
-                        <div class="img-menu">
-                            <img src="../Images/Section-content-select-menu/feel-the-coffee.jpg" alt="">
-                        </div>
-                        <h5>Feel the Coffee</h5>
-                        <p>
-                            Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei
-                            an
-                            pericula euripidis, hinc partem ei est
-                        </p>
-                    </div>
 
-                    <div class="book-table-menu">
-                        <div class="img-menu">
-                            <img src="../Images/Section-content-select-menu/full-taste.jpg" alt="">
-                        </div>
-                        <h5>Full Taste</h5>
-                        <p>
-                            Alienum phaedrum to rquatos nec eu, vis detraxit periculis ex, nihil expetendis in mei. Mei
-                            an
-                            pericula euripidis, hinc partem ei est
-                        </p>
-                    </div>
-                </div>
-
-            </div>
+            
